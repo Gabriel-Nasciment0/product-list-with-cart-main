@@ -31,10 +31,30 @@ body main .itens {
   float: left;
   width: 80%;
 }
+body main .itens .row .box {
+  position: relative;
+}
 body main .itens .row .box .img {
   border-radius: 20px;
   height: 300px;
-  width: 100%;
+  width: 350px;
+}
+body main .itens .row .box button {
+  position: absolute;
+  bottom: 26%;
+  left: 90px;
+  padding: 10px 50px;
+  border-radius: 20px;
+}
+body main .itens .row .box h2 {
+  padding-top: 40px;
+  font-size: 20px;
+}
+body main .itens .row .box h3 {
+  font-size: 20px;
+}
+body main .itens .row .box h4 {
+  font-size: 20px;
 }
 body main .itens .row .box01 .img {
   background: url(/assets/images/image-waffle-desktop.jpg) no-repeat center;
