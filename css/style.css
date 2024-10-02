@@ -19,6 +19,7 @@
 body {
   width: 100%;
   height: 100%;
+  background: var(--Rose-100);
 }
 body main {
   padding-top: 30px;
@@ -45,12 +46,13 @@ body main .itens .row .box button {
   left: 90px;
   padding: 10px 50px;
   border-radius: 20px;
+  border: 1px solid black;
 }
 body main .itens .row .box h2 {
-  padding-top: 40px;
   font-size: 20px;
 }
 body main .itens .row .box h3 {
+  padding: 10px 0;
   font-size: 20px;
 }
 body main .itens .row .box h4 {
@@ -60,7 +62,55 @@ body main .itens .row .box01 .img {
   background: url(/assets/images/image-waffle-desktop.jpg) no-repeat center;
   background-size: cover;
 }
+body main .itens .row .box02 .img {
+  background: url(/assets/images/image-creme-brulee-desktop.jpg) no-repeat center;
+  background-size: cover;
+}
+body main .itens .row .box03 .img {
+  background: url(/assets/images/image-macaron-desktop.jpg) no-repeat center;
+  background-size: cover;
+}
+body main .itens .row .box04 .img {
+  background: url(/assets/images/image-tiramisu-desktop.jpg) no-repeat center;
+  background-size: cover;
+}
+body main .itens .row .box05 .img {
+  background: url(/assets/images/image-baklava-desktop.jpg) no-repeat center;
+  background-size: cover;
+}
+body main .itens .row .box06 .img {
+  background: url(/assets/images/image-meringue-desktop.jpg) no-repeat center;
+  background-size: cover;
+}
+body main .itens .row .box07 .img {
+  background: url(/assets/images/image-cake-desktop.jpg) no-repeat center;
+  background-size: cover;
+}
+body main .itens .row .box08 .img {
+  background: url(/assets/images/image-brownie-desktop.jpg) no-repeat center;
+  background-size: cover;
+}
+body main .itens .row .box09 .img {
+  background: url(/assets/images/image-panna-cotta-desktop.jpg) no-repeat center;
+  background-size: cover;
+}
 body main .carrinho {
   float: left;
   width: 20%;
+  background: white;
+  text-align: center;
+  border-radius: 20px;
+}
+body main .carrinho h1 {
+  font-size: 25px;
+  color: var(--Red);
+  font-weight: bold;
+}
+body main .carrinho .img {
+  width: 200px;
+  height: 200px;
+  background: url(/assets/images/illustration-empty-cart.svg) no-repeat center right;
+}
+body main .carrinho h2 {
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
